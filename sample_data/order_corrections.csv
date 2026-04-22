@@ -1,0 +1,4 @@
+order_id,customer_id,order_status,order_amount,order_date,shipping_method,payment_status,delivery_country,last_updated_ts
+O1003,C003,SHIPPED,220.0,2026-04-01,STANDARD,PAID,NL,2026-04-01 11:05:00
+O1005,C005,SHIPPED,560.2,2026-04-01,EXPRESS,PAID,BE,2026-04-01 11:06:00
+O1017,C017,PLACED,88.4,2026-04-01,STANDARD,PAID,DE,2026-04-01 11:10:00
