@@ -1,0 +1,3 @@
+bundle:
+  name: e-commerce-orders-delta-pipeline
+include:  
