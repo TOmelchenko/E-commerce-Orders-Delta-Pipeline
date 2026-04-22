@@ -1,0 +1,23 @@
+name: repo-checks
+
+on:
+  push:
+  pull:
+
+jobs:
+  basic-check:
+    runs-on: ubuntu-latest # place where the machine to run the job has been choosen
+    steps:
+      - uses: action/checkout@v4
+      - name: Verify required files exisy
+      run: 
+        test -f README.md # test -f means that checks if the file exists in this path
+        test -f notebooks/01_delta_live_demo.py
+        test -f sample_data/batch_1_orders.csv
+        test -f sample_data/batch_2_orders.csv
+        test -f sample_data/order_corrections.csv
+
+        
+
+        
+
