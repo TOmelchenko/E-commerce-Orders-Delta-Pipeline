@@ -1,0 +1,11 @@
+catalog: retail_dev
+schema: orders
+landing_volume: landing # where files arrive before injection
+checkpoint_volume: checkpoints
+
+paths: # paths, used by injection workflow
+  landing_orders: /Volumes/retail_dev/orders/landing/orders
+  autoloader_checkpoint: /Volumes/retail_dev/orders/checkpoints/autoloader_orders
+
+tables:
+  bronze_orders: retail_dev.orders.bronze_orders
