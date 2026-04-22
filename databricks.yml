@@ -1,3 +1,8 @@
 bundle:
   name: e-commerce-orders-delta-pipeline
-include:  
+
+targets:
+  default: true
+  mode: development
+  workspace:
+    host: https://dbc-578e1af6-806a.cloud.databricks.com/
