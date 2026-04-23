@@ -9,3 +9,11 @@ paths: # paths, used by injection workflow
 
 tables:
   bronze_orders: retail_dev.orders.bronze_orders
+  siver_orders: retail_dev.orders.silver_orders
+  gold_daily_orders_summary: retail_dev.orders.gold_daily_orders_summary
+  gold_status_summary: retail_dev.orders.gold_status_summary
+  gold_daily_orders_summary: retail_dev.orders.gold_daily_orders_summary
+  gold_shipping_method_summary: retail_dev.orders.gold_shipping_method_summary
+
+rules:
+  high_value_threshold: 500
